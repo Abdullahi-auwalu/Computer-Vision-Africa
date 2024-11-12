@@ -8,28 +8,28 @@ import { useState } from "react";
 const Navbar = () => {
   const [sideNav, setSideNav] = useState(false);
   return (
-    <div className="w-screen h-[116px] flex items-center justify-between px-6 lg:px-[150px] bg-white shadow-lg shadow-gray-300/50">
+    <div className="w-full h-[116px] flex items-center justify-between px-6 lg:px-[80px] bg-white shadow-lg shadow-gray-300/50 ">
       <Image
         src="/Logo.png"
         alt=""
         width={150}
         height={150}
-        className="w-[10rem] "
+        className="w-[9rem] md:w-[10rem] overflow-hidden"
       />
-      <div className="flex items-center justify-between gap-16">
+      <div className="flex items-center justify-between gap-16 overflow-hidden">
         <ul className="md:flex items-center justify-around gap-20 hidden w-auto">
           <li className="text-[#4CAF50] text-2xl">
             <Link href="/">Home</Link>
           </li>
           <li className="text-[#4CAF50] text-2xl">
-            <Link href="/">About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li className="text-[#4CAF50] text-2xl">
-            <Link href="/">Events</Link>
+            <Link href="/events">Events</Link>
           </li>
         </ul>
         <div className="flex items-center justify-center w-[148px] h-[50px] p-2 rounded-full bg-[#4CAF50] hover:bg-[#729d74] text-white text-xl ">
-          <Link href="/">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </div>
         <div
           onClick={() => setSideNav(!sideNav)}
@@ -65,10 +65,10 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="text-[#4CAF50] text-3xl w-full h-[50px] flex items-center justify-center hover:bg-[#4CAF50] hover:text-white ">
-                <Link href="/">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li className="text-[#4CAF50] text-3xl w-full h-[50px] flex items-center justify-center hover:bg-[#4CAF50] hover:text-white ">
-                <Link href="/">Events</Link>
+                <Link href="/events">Events</Link>
               </li>
             </ul>
           </div>
