@@ -34,8 +34,8 @@ const data: dataItems[] = [
   },
   {
     id: "6",
-    text: "Weapon detection with automatic messaging",
-    image: "/knife.png",
+    text: "Qr code detector",
+    image: "/qrcode.png",
   },
 ];
 
@@ -45,7 +45,7 @@ const Project = () => {
       <h1 className="text-4xl font-bold md:px-[100px]">
         Computer Vision Project
       </h1>
-      <div className="flex flex-col md:flex-row flex-wrap  item-center justify-around gap-2">
+      <div className="flex flex-col md:flex-row flex-wrap  item-center justify-around gap-4 lg:gap-0">
         {data.map((item) => (
           <Card key={item.id} text={item.text} image={item.image} />
         ))}
