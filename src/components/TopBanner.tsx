@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const TopBanner = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full items-center mt-32 md:mt-0 gap-10 lg:pl-[130px]">
-      <div className=" w-3/5 gap-10 flex flex-col md:-mt-40 text-left ">
-        <h1 className=" font-semibold text-5xl leading-[54px] w-[700px]">
+    <div className="flex flex-col lg:flex-row w-full items-center  mt-32 lg:mt-0 gap-10 lg:pl-[100px]">
+      <div className="w-full lg:w-3/5 p-8 gap-10 flex flex-col lg:-mt-40 text-left  ">
+        <h1 className=" font-semibold text-5xl leading-[54px] md:w-[700px] lg:pr-[0px]">
           Join the future of vision: Connect, Learn,and Innovate with the
           <span className="text-[#4B92D4] "> Computer Vision Africa</span>
         </h1>
@@ -19,7 +19,7 @@ const TopBanner = () => {
           computer vision.
         </p>
       </div>
-      <div className="w-2/5 h-[877px] flex overflow-hidden">
+      <div className="w-full lg:w-2/5 h-[877px] flex overflow-hidden p-4">
         <Image
           src="/bannerImg.png"
           alt=""

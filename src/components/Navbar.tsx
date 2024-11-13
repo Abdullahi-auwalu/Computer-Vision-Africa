@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link href="/events">Events</Link>
           </li>
         </ul>
-        <div className="flex items-center justify-center w-[148px] h-[50px] p-2 rounded-full bg-[#4CAF50] hover:bg-[#729d74] text-white text-xl ">
+        <div className="md:flex items-center justify-center w-[148px] h-[50px] p-2 rounded-full bg-[#4CAF50] hover:bg-[#729d74] text-white text-xl hidden">
           <Link href="/contact">Contact</Link>
         </div>
         <div
@@ -69,6 +69,9 @@ const Navbar = () => {
               </li>
               <li className="text-[#4CAF50] text-3xl w-full h-[50px] flex items-center justify-center hover:bg-[#4CAF50] hover:text-white ">
                 <Link href="/events">Events</Link>
+              </li>
+              <li className="text-[#4CAF50] text-3xl w-full h-[50px] flex items-center justify-center hover:bg-[#4CAF50] hover:text-white ">
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>

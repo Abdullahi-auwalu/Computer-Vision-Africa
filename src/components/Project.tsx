@@ -41,9 +41,11 @@ const data: dataItems[] = [
 
 const Project = () => {
   return (
-    <div className=" px-4 md:px-[160px] flex flex-col gap-12">
-      <h1 className="text-4xl font-bold">Computer Vision Project</h1>
-      <div className="flex flex-col md:flex-row flex-wrap md:items-start item-center justify-around gap-8">
+    <div className="w-full px-4  flex flex-col gap-12">
+      <h1 className="text-4xl font-bold md:px-[100px]">
+        Computer Vision Project
+      </h1>
+      <div className="flex flex-col md:flex-row flex-wrap  item-center justify-around gap-2">
         {data.map((item) => (
           <Card key={item.id} text={item.text} image={item.image} />
         ))}
