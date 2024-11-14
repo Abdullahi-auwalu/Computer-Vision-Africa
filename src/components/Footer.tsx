@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-between w-full md:h-[386px] mt-10 bg-[#131313] ">
+    <div className="flex flex-col justify-between w-full md:h-[386px] bg-[#131313] ">
       <div className="flex flex-col md:flex-row items-center justify-between pt-10 px-6 lg:px-[80px] gap-10 md:gap-0">
         {/* LOGO */}
         <div className="flex flex-col gap-4 mt-8">
@@ -70,14 +70,14 @@ const Footer = () => {
         <div className="flex flex-col gap-4 md:mt-4 items-center justify-center">
           <h3 className="text-white text-2xl font-semibold">Links</h3>
           <div className="flex flex-col gap-4 text-white text-base">
-            <Link href="">Home</Link>
-            <Link href="">About</Link>
-            <Link href="">Events</Link>
-            <Link href="">Contact</Link>
+            <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/event">Events</Link>
+            <Link href="/contact">Contact</Link>
           </div>
         </div>
       </div>
-      <div className="w-full h-[50px] -mt-5 bg-white flex items-center justify-end text-base pr-4 font-bold ">
+      <div className="w-full h-[50px] -mt-5 bg-white flex items-center justify-end text-base pr-4 font-semibold ">
         <p>All right reserved</p>
       </div>
     </div>

@@ -7,7 +7,7 @@ import TopBanner from "@/components/TopBanner";
 
 export default function Home() {
   return (
-    <div className="p1-6 -pr-10  flex flex-col w-auto">
+    <div className="p1-6 -pr-10 pb-10  flex flex-col w-auto">
       <TopBanner />
       <Project />
     </div>
