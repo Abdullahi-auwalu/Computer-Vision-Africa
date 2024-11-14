@@ -12,10 +12,10 @@ const page = () => {
             alt=""
             width={400}
             height={400}
-            className=" object-cover"
+            className=" object-cover md:w-full"
           />
         </div>
-        <div className=" flex flex-col gap-8 lg:w-[60%] px-10 bg-white py-20">
+        <div className=" flex flex-col text-center lg:text-left gap-8 lg:w-[60%] px-10 bg-white py-20">
           <h2 className="text-3xl text-[#437D58] font-semibold">
             About Computer Vision Africa
           </h2>
@@ -41,8 +41,8 @@ const page = () => {
           className="lg:w-[1510px] h-[700px]"
         />
       </div>
-      <div className=" flex flex-col lg:flex-row gap-14 px-[10px] items-center justify-center py-[60px]">
-        <div className="flex flex-col gap-2 w-[512px] h-[488px] px-6 py-10 shadow-lg bg-white shadow-gray-300/50">
+      <div className=" flex flex-col lg:flex-row gap-14 md:px-[10px] items-center justify-center py-[60px]">
+        <div className="flex flex-col gap-2 md:w-[512px] md:h-[488px] px-6 py-10 shadow-lg bg-white shadow-gray-300/50">
           <Image
             src="/arrow.png"
             alt=""
@@ -64,7 +64,7 @@ const page = () => {
             generation of African innovators and problem-solvers.
           </p>
         </div>
-        <div className="flex flex-col gap-2 w-[512px] h-[488px] px-6 py-10 shadow-lg bg-white shadow-gray-300/50">
+        <div className="flex flex-col gap-2 md:w-[512px] md:h-[488px] px-6 py-10 shadow-lg bg-white shadow-gray-300/50">
           <Image
             src="/head.png"
             alt=""
