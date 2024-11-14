@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="py-[50px] bg-gray-100 px-10 lg:px-[130px]">
+    <div className="py-[50px] bg-gray-100 px-4 lg:px-[130px]">
       <h1 className="text-3xl font-bold text-center py-10">Contact Us</h1>
       <div className="flex  my-12 bg-white shadow-lg shadow-gray-300/50 flex-col md:flex-row w-full rounded-md">
         <div className="flex flex-col md:w-[491px] md:h-auto bg-[#6DA480] gap-8 text-wrap justify-between py-12 px-10 rounded-md relative">
