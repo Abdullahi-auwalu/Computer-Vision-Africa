@@ -11,12 +11,12 @@ const TopBanner = () => {
         <p className="text-[#D97A66] text-base md:w-[592px] leading-6 ">
           Steps into the world of cutting-edge technology with a vibrant
           community of computer vision enthusiasts, experts and learners.
-          Whether you’re diving into AI-driven image analysis or exploring new
-          advancements in machine learning, our community offers a collaborative
-          space to grow, share knowledge, and transform ideas into ground
-          breaking solutions. Get access to resources, tutorials, and industry
-          insights to elevate your skills and make a real impact in the world of
-          computer vision.
+          Whether you&#39;re diving into AI-driven image analysis or exploring
+          new advancements in machine learning, our community offers a
+          collaborative space to grow, share knowledge, and transform ideas into
+          ground breaking solutions. Get access to resources, tutorials, and
+          industry insights to elevate your skills and make a real impact in the
+          world of computer vision.
         </p>
       </div>
       <div className="w-full lg:w-2/5 h-[877px] flex overflow-hidden p-4">

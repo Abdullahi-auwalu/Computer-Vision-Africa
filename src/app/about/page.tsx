@@ -24,15 +24,15 @@ const page = () => {
             pioneering advancements in computer vision, machine learning, and
             artificial intelligence across Africa. As a diverse network of tech
             enthusiasts, researchers, and professionals, we are committed to
-            unleashing the transformative power of AI to address the continent’s
-            unique challenges and drive sustainable growth. Through our shared
-            passion, we aim to cultivate a dynamic ecosystem where innovation
-            flourishes, knowledge is shared, and African talent leads the global
-            AI landscape.
+            unleashing the transformative power of AI to address the
+            continent&#39;s unique challenges and drive sustainable growth.
+            Through our shared passion, we aim to cultivate a dynamic ecosystem
+            where innovation flourishes, knowledge is shared, and African talent
+            leads the global AI landscape.
           </p>
         </div>
       </div>
-      <div className="  object-cover mt-14 lg:w-[1513px] h-[700px] ">
+      <div className="object-cover mt-14 lg:w-[1513px] h-[700px] ">
         <Image
           src="/fullcars.png"
           alt=""
@@ -81,9 +81,9 @@ const page = () => {
             communities, bridge economic gaps, and advance human potential. By
             spearheading ethical, impactful AI applications that address
             critical societal needs—from healthcare to agriculture to
-            education—we aim to redefine Africa's role on the world stage. Our
-            vision is to create a continent-wide movement, uniting African minds
-            to build a future powered by AI that reflects our values,
+            education—we aim to redefine Africa&#39;s role on the world stage.
+            Our vision is to create a continent-wide movement, uniting African
+            minds to build a future powered by AI that reflects our values,
             creativity, and resilience.
           </p>
         </div>
