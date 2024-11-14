@@ -64,7 +64,7 @@ const Footer = () => {
                 className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
               />
             </Link>
-            <Link href="">
+            <Link href="https://chat.whatsapp.com/H9lhcqThokNIyXsy0HyySO">
               <Image
                 src="/whatsapp.png"
                 alt=""
