@@ -8,13 +8,13 @@ import { useState } from "react";
 const Navbar = () => {
   const [sideNav, setSideNav] = useState(false);
   return (
-    <div className="w-full h-[116px] flex items-center justify-between px-6 lg:px-[80px] bg-white shadow-lg shadow-gray-300/50 ">
+    <div className="w-full h-[116px] flex items-center justify-between pr-6 lg:px-[80px] bg-white shadow-lg shadow-gray-300/50 ">
       <Image
         src="/Logo.png"
         alt=""
         width={150}
         height={150}
-        className="w-[9rem] md:w-[10rem] overflow-hidden"
+        className="w-[9rem] md:w-[10rem] overflow-hidden -px-4"
       />
       <div className="flex items-center justify-between gap-16 overflow-hidden">
         <ul className="md:flex items-center justify-around gap-20 hidden w-auto">
@@ -48,8 +48,8 @@ const Navbar = () => {
         <div
           className={
             sideNav
-              ? "fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300 "
-              : "fixed top-0 left-[-999px] w-[300px] h-screen bg-white z-10  duration-300 "
+              ? "fixed top-0 left-0 w-[300px] h-screen bg-gray-100 z-10 duration-300 "
+              : "fixed top-0 left-[-999px] w-[300px] h-screen bg-gray-100 z-10  duration-300 "
           }
         >
           <div className="w-full h-[50px] bg-[#205021]">
