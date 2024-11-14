@@ -6,7 +6,7 @@ const page = () => {
     <div className="py-[50px] bg-gray-100 px-4 lg:px-[130px]">
       <h1 className="text-3xl font-bold text-center py-10">Contact Us</h1>
       <div className="flex  my-12 bg-white shadow-lg shadow-gray-300/50 flex-col md:flex-row w-full rounded-md">
-        <div className="flex flex-col md:w-[491px] md:h-auto bg-[#6DA480] gap-8 text-wrap justify-between py-12 px-10 rounded-md relative">
+        <div className="flex flex-col  md:h-auto bg-[#6DA480] gap-8 text-wrap justify-between py-12 px-10 rounded-md relative  md:w-[50%]">
           <h2 className="text-2xl font-semibold text-white">
             Contact Information
           </h2>
@@ -58,7 +58,7 @@ const page = () => {
             className="absolute bottom-0 right-0 hidden md:flex "
           />
         </div>
-        <div className="p-12">
+        <div className="py-12 px-6 md:w-[50%]">
           <form action="" className="flex flex-col">
             <div className=" flex flex-col gap-2 lg:flex-row flex-wrap md:gap-8 items-center justify-center">
               <div className="pb-8 ">
@@ -68,7 +68,7 @@ const page = () => {
                 <input
                   type="text"
                   placeholder="John"
-                  className="lg:w-[278px] h-[30px] flex flex-col border-b border-[#6DA480] px-2"
+                  className="lg:w-[208px] h-[30px] flex flex-col border-b border-[#6DA480] px-2"
                 />
               </div>
               <div className="pb-8 flex flex-col gap-2">
@@ -78,7 +78,7 @@ const page = () => {
                 <input
                   type="text"
                   placeholder="Deo"
-                  className="lg:w-[278px] h-[30px] flex flex-col border-b border-[#6DA480] px-2"
+                  className="lg:w-[208px] h-[30px] flex flex-col border-b border-[#6DA480] px-2"
                 />
               </div>
             </div>
@@ -90,7 +90,7 @@ const page = () => {
                 <input
                   type="text"
                   placeholder="abc@gmail.com"
-                  className="lg:w-[278px] h-[30px] flex flex-col border-b border-[#6DA480] px-2"
+                  className="lg:w-[208px] h-[30px] flex flex-col border-b border-[#6DA480] px-2"
                 />
               </div>
               <div className="flex flex-col gap-2">
@@ -102,7 +102,7 @@ const page = () => {
                   <input
                     type="text"
                     placeholder="+234 *** **** ***"
-                    className="lg:w-[278px] h-[30px] flex flex-col border-b border-[#6DA480] px-2"
+                    className="lg:w-[208px] h-[30px] flex flex-col border-b border-[#6DA480] px-2"
                   />
                   <Image
                     src="/handClikBlack.png"
