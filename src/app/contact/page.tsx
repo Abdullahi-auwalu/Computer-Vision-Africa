@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -21,15 +22,20 @@ const page = () => {
             </div>
           </div>
           <div className="flex gap-6">
-            <Image src="/twiterRound.png" alt="" width={30} height={30} />
+            <Link href="https://buff.ly/4dXXuDx">
+              <Image src="/twiterRound.png" alt="" width={30} height={30} />
+            </Link>
+
             <div className="">
-              <Image
-                src="/instaRound.png"
-                alt=""
-                width={30}
-                height={30}
-                className="reletiv"
-              />
+              <Link href="https://buff.ly/3YwhfgL">
+                <Image
+                  src="/instaRound.png"
+                  alt=""
+                  width={30}
+                  height={30}
+                  className="reletiv"
+                />
+              </Link>
               <Image
                 src="/handClick.png"
                 alt=""
@@ -38,7 +44,9 @@ const page = () => {
                 className=" absolute -mt-1 ml-3"
               />
             </div>
-            <Image src="/discordRound.png" alt="" width={30} height={30} />
+            <Link href="https://chat.whatsapp.com/H9lhcqThokNIyXsy0HyySO">
+              <Image src="/discordRound.png" alt="" width={30} height={30} />
+            </Link>
           </div>
 
           <div className="w-[138px] h-[138px] rounded-full bg-[#A9D4B880] absolute bottom-[5rem] right-[5rem] hidden md:flex "></div>

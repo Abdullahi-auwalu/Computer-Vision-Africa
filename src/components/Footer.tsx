@@ -28,41 +28,51 @@ const Footer = () => {
         <div className="flex flex-col gap-8 md:-mt-16 item-center justify-center">
           <h3 className="text-white text-2xl font-semibold">Socials</h3>
           <div className="flex flex-col items-center md:flex-row gap-6">
-            <Image
-              src="/facebook.png"
-              alt=""
-              width={30}
-              height={30}
-              className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
-            />
-            <Image
-              src="/x.png"
-              alt=""
-              width={30}
-              height={30}
-              className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
-            />
-            <Image
-              src="/instagram.png"
-              alt=""
-              width={30}
-              height={30}
-              className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
-            />
-            <Image
-              src="/linkedin.png"
-              alt=""
-              width={30}
-              height={30}
-              className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
-            />
-            <Image
-              src="/whatsapp.png"
-              alt=""
-              width={30}
-              height={30}
-              className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
-            />
+            <Link href="https://buff.ly/3Ag5dif">
+              <Image
+                src="/facebook.png"
+                alt=""
+                width={30}
+                height={30}
+                className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
+              />
+            </Link>
+            <Link href="https://buff.ly/4dXXuDx">
+              <Image
+                src="/x.png"
+                alt=""
+                width={30}
+                height={30}
+                className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
+              />
+            </Link>
+            <Link href="https://buff.ly/3YwhfgL">
+              <Image
+                src="/instagram.png"
+                alt=""
+                width={30}
+                height={30}
+                className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
+              />
+            </Link>
+            <Link href="https://buff.ly/4ePoRRf">
+              <Image
+                src="/linkedin.png"
+                alt=""
+                width={30}
+                height={30}
+                className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
+              />
+            </Link>
+            <Link href="">
+              <Image
+                src="/whatsapp.png"
+                alt=""
+                width={30}
+                height={30}
+                className="w-[25px] md:w-[30px] h-[25px] md:h-[30px]"
+              />
+            </Link>
           </div>
         </div>
 
