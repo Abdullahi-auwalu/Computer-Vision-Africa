@@ -27,9 +27,12 @@ const Navbar = () => {
           <li className="hover:text-[#437D58] text-2xl font-semibold">
             <Link href="/events">Events</Link>
           </li>
+          <li className="hover:text-[#437D58] text-2xl font-semibold">
+            <Link href="/events">Contact</Link>
+          </li>
         </ul>
         <div className="md:flex items-center justify-center w-[148px] h-[50px] p-2 bg-[#205021] hover:bg-[#205021] text-white text-xl hidden font-semibold rounded-sm">
-          <Link href="/contact">Contact Us</Link>
+          <Link href="/contact">Donate</Link>
         </div>
         <div
           onClick={() => setSideNav(!sideNav)}
@@ -72,6 +75,9 @@ const Navbar = () => {
               </li>
               <li className="text-[#205021] text-3xl w-full h-[50px] flex items-center justify-center hover:bg-[#205021] hover:text-white ">
                 <Link href="/contact">Contact</Link>
+              </li>
+              <li className="text-[#205021] text-3xl w-full h-[50px] flex items-center justify-center hover:bg-[#205021] hover:text-white ">
+                <Link href="/contact">Support Us</Link>
               </li>
             </ul>
           </div>

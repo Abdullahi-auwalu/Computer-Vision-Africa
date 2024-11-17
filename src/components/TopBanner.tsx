@@ -8,7 +8,7 @@ const TopBanner = () => {
           Join the future of vision: Connect, Learn,and Innovate with the
           <span className="text-[#4B92D4] "> Computer Vision Africa</span>
         </h1>
-        <p className="text-[#D97A66] text-base lg:w-[592px] leading-6 ">
+        <p className="text-black text-base lg:w-[592px] leading-6 ">
           Steps into the world of cutting-edge technology with a vibrant
           community of computer vision enthusiasts, experts and learners.
           Whether you&#39;re diving into AI-driven image analysis or exploring
