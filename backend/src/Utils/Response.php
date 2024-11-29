@@ -21,7 +21,7 @@ class Response
 
     // Static functions
 
-    public static function prepareJSONSuccess(string $message, ?array $data): array
+    public static function prepareJSONSuccess(string $message, ?array $data=null): array
     {
         return [
             'status'    => 'success',

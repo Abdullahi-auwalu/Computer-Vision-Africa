@@ -1,4 +1,10 @@
 {
+    "/": {
+        "GET": {
+            "controller": "Home",
+            "handler": "index"
+        }
+    },
     "/auth/register": {
         "POST": {
             "controller": "Auth",
