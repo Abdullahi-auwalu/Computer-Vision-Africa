@@ -1,0 +1,24 @@
+username: 
+email: 
+password: 
+password-confirm: 
+
+username: johndoe
+email: john@doe.com
+password: JohnDoe_123
+password-confirm: JohnDoe_123
+
+username: marylambs
+email: mary@lambs01.me
+password: Mary_01Lambs
+password-confirm: Mary_01Lambs
+
+username: kelvin$$
+email: kelvins@kelvins.com
+password: Kelvin$$$256
+password-confirm: Kelvin$$$256
+
+username: merlin
+email: merlin@me.com
+password: merlin#Me243
+password-confirm: merlin#Me243

@@ -1,0 +1,19 @@
+{
+    "name": "franklin_ekemezie/computer_vision_africa",
+    "description": "Backend PHP application for Computer Vision Africa official web application.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "FranklinEkemezie\\ComputerVisionAfrica\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shadow Walker",
+            "email": "franklynpeter2006@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}

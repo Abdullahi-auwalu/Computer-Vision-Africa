@@ -1,0 +1,35 @@
+{
+    "/auth/register": {
+        "POST": {
+            "controller": "Auth",
+            "handler": "register"
+        }
+    },
+    "/auth/login": {
+        "POST": {
+            "controller": "Auth",
+            "handler": "login"
+        }
+    },
+    "/auth/logout": {
+        "POST": {
+            "controller": "Auth",
+            "handler": "logout",
+            "auth": [true, ""]
+        }
+    },
+    "/user/profile": {
+        "GET": {
+            "controller": "User",
+            "handler": "getProfile",
+            "auth": [true, ""]
+        }
+    },
+    "/user/profile/edit": {
+        "POST": {
+            "controller": "User",
+            "handler": "editProfile",
+            "auth": [true, ""]
+        }
+    }
+}

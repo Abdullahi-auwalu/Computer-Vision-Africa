@@ -1,0 +1,1 @@
+SELECT id, uid, firstname, lastname, username, email, LEFT(password, 40) AS pwd FROM users;
